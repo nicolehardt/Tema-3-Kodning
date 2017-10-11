@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Webbrowser karaktersæt UTF-8 for de fleste symboler og karakterer -->
+  <meta charset="utf-8">
+  <!-- Titel for siden -->
+  <title>IN2 Design</title>
+  <!-- Link til stylesheet -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <!-- Link til font google -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Varela+Round" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> -->
+  <!-- Meta tag for mobilvisning -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Search Icon -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header>
+    <div id="header">
+      <a href="index.html"><img src="./img/logoin2.png" alt="IN2 logo">
+      <!--<h1>Woothie</h1></a> -->
+      <!-- Søgefunktion
+      <div class="w3-padding w3-xlarge w3-text-orange">
+          <i class="fa fa-search"></i>
+        </div>-->
+      <div id=mynav class=navi> <!--yderste lag-->
+        <a href="javascript:void(0)" class="closebut" onclick="closeNav()">&times;</a> <!-- knap til at lukke nav-->
+
+        <div class="overlayer"> <!--indhold i yderste lag-->
+          <a href="index.html">Forside</a>
+          <a href="webshop.html">Webshop</a>
+          <a href="indretning.html">Indretning</a>
+          <a href="inspiration.html">Inspiration</a>
+          <a href="kontakt.html">Kontakt</a>
+        </div>
+      </div>
+      <span onclick="openNav()">☰</span> <!--open nav-->
+    </div>
+  </header>
+
+  <main id="nicole">
+    <img src="./img/blue.png" alt="ægget i blå">
+
+  <section class="farver">
+    <a href="./grey.html" id="altgrey" role="button">Grå</a>
+    <a href="./red.html" id="altred" role="button">Rød</a>
+    <a href="./blue.html" id="altblue" role="button">Blå</a>
+    <!-- <button id="grey" type="button"></button>
+    <button id="red" type="button"></button>
+    <button id="blue" type="button"></button> -->
+  </section>
+
+  <section class="indhold">
+    <h1>Arne Jacobsen</h1>
+    <h2>Ægget</h2>
+    <h3>DKK 38.659</h3>
+  <section>
+
+    <form class="indhold" action=""><!-- siden den skal gå hen på, når man trykker på læg i kurv -->
+      Antal <input type="number" value="1">
+      <input type="submit" value="Læg i kurv">
+    </form>
+    <form action="">
+
+    <section class="omegg">
+    <p>Materiale: Stof</p>
+    <p>Ægget er et af Jacobsens mest anerkendte værker, både inden- og udenlandsk. Det er en velkendt stol, som alle kender - og er noget af det første alle lægger mærke til, når de træder ind i et rum.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; IN2 DESIGN 2017 - All Rights Reserved <a href="http://www.facebook.com" target="_blank"><img src="img/facebook-icon.png" alt="facebook-logo"></a></p>
+  </footer>
+
+<script> /* javascript til at åbne menuen, når der klikkes på ☰-*/
+function openNav(){
+  document.getElementById("mynav").style.width = "100%";
+}
+function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
+  document.getElementById("mynav").style.width = "0%";
+}
+
+</script>
+
+</body>
+</html>
