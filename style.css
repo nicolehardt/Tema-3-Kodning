@@ -54,7 +54,11 @@ header #header img {
   /*opacity: none;*/
 }
 
-#nicole h1, #nicole h2, #nicole h3{
+#nicole iframe{
+  /*display: none;*/
+}
+
+#nicole h1, #nicole h2, #nicole h3, #nicole h4{
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -83,6 +87,10 @@ header #header img {
   font-size: 90%;
   margin-top: 2%;
   margin-bottom: 4%;
+}
+
+#nicole h4{
+  margin: 2%;
 }
 
 #nicole p{
@@ -138,7 +146,7 @@ header #header img {
 
 /*#nicole button{
   border-radius: 50%;
-  /*font-size: 30px;*/
+  font-size: 30px;*/
 }
 
 
@@ -181,9 +189,9 @@ header #header img {
     margin-bottom: 5%;
   }
 
-  #nicole input[type=number]{
+  /*#nicole input[type=number]{
     width: 20%;
-  }
+  }*/
 
   #nicole p{
     font-size: 150%;
@@ -191,7 +199,65 @@ header #header img {
 }
 
 
+@media screen and (min-width:1024px) {
+  #nicole{
+    height: 590px;
+    /*position: fixed;*/
+  }
 
+  #nicole img{
+    max-width: 300px;
+    float: left;
+    margin-left: 10%;
+  }
+
+  #nicole h2{
+    font-size: 300%;
+  }
+
+  #nicole .left, #nicole .omegg{
+    float: right;
+    margin-right: 10%;
+  }
+
+  #nicole .left{
+    clear: right;
+    margin-top: 3%;
+    max-width: 35%;
+  }
+
+  #nicole .omegg{
+    max-width: 35%;
+    clear: right;
+    margin-right: 9%;
+    margin-top: 1%;
+  }
+
+  #nicole .farver{
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    top: 67%;
+    left: 22%;
+  }
+
+  #nicole input[type=number]{
+    width: 20%;
+  }
+
+}
+
+@media screen and (min-width:1097px) {
+  #nicole .omegg{
+    max-width: 344px;
+  }
+
+  #nicole .farver{
+    position: absolute;
+    top: 80%;
+    left: 21%;
+  }
+}
 
 
 
