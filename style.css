@@ -197,7 +197,7 @@ header #header img {
   }
 }
 
-
+/*Styling for elementerne når skærmen er breddere end 1024px*/
 @media screen and (min-width:1024px) {
   #nicole{
     height: 590px;
@@ -247,9 +247,9 @@ header #header img {
   #nicole p{
     font-size: 17px;
   }
-
 }
 
+/*Styling for elementerne når skærmen bliver breddere end 1097px*/
 @media screen and (min-width:1097px) {
   #nicole .omegg{
     max-width: 344px;
@@ -261,6 +261,13 @@ header #header img {
     left: 21%;
   }
 }
+
+
+
+
+
+
+
 
 
 
