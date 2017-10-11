@@ -36,35 +36,19 @@ header #header img {
   float: left;
 }
 
-/*w3-padding w3-xlarge w3-text-orange {
-  position: absolute;
-  right: 15%;
-  margin-top: 20px;
-  font-size: 2.0em;
-  color: #ffffff;
-}*/
-
-/*#dorte header #header h1 {
-  padding: 25px 0 0 5px;
-  margin: 0;
-  float: left;
-  font-family: 'Bowlby One', cursive, sans-serif;
-  color: #07395a;
-  font-size: 2em;
-}*/
-
 #nicole {
   margin: 1% 5%;
   padding-top: 1%;
-  /*height: 505px;*/
   padding-bottom: 10px;
   background-color: white;
+  opacity: 0.95;
 }
 
 #nicole img{
   max-width: 70%;
   margin: 0 auto;
   display: block;
+  /*opacity: none;*/
 }
 
 #nicole h1, #nicole h2{
@@ -80,35 +64,47 @@ header #header img {
   font-size: 220%
 }
 
-#nicole h2, #nicole p{
-  margin: 1% 2%;
+#nicole h2, #nicole form{
+  margin: 2%;
 }
 
 #nicole p{
-  font-family: 'Open Sans Condensed'
+  font-family: 'Open Sans Condensed';
+  margin: 2%;
 }
 
-/*#dorte main section {
-  width: 20%;
-  height: 30%;
-  /*padding: 8px 0;*/
-  /*margin: 0.7em;
-  background-color: #537081; /*rgba(255,255,255,0.2);*/
-  /*opacity: 0.3;
-}
-
-#dorte main section h2{
-  color: #ffffff;
-  font-size: 2rem;
+#nicole input[type=number]{
+  display: inline-block;
+  width: 10%;
   text-align: center;
-  padding-top: 15%;
 }
 
-#dorte main section img {
-  height: 100%;
-  display: block;
-  margin: auto;
-}*/
+#nicole input[type=submit]:hover{
+  background-color: black;
+}
+
+#nicole .omegg{
+  border: 0.5px solid black;
+}
+
+#nicole #grey{
+  background-color: grey;
+}
+
+#nicole #red {
+  background-color: red;
+}
+
+#nicole #blue{
+  background-color: blue;
+}
+
+button{
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+
 
 footer {
   height: 98px;
@@ -197,3 +193,47 @@ span{
   cursor: pointer;
 }
 /*menuen slutter her*/
+
+
+
+
+
+
+/*#dorte main section {
+  width: 20%;
+  height: 30%;
+  /*padding: 8px 0;*/
+  /*margin: 0.7em;
+  background-color: #537081; /*rgba(255,255,255,0.2);*/
+  /*opacity: 0.3;
+}
+
+#dorte main section h2{
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 15%;
+}
+
+#dorte main section img {
+  height: 100%;
+  display: block;
+  margin: auto;
+}*/
+
+/*w3-padding w3-xlarge w3-text-orange {
+  position: absolute;
+  right: 15%;
+  margin-top: 20px;
+  font-size: 2.0em;
+  color: #ffffff;
+}*/
+
+/*#dorte header #header h1 {
+  padding: 25px 0 0 5px;
+  margin: 0;
+  float: left;
+  font-family: 'Bowlby One', cursive, sans-serif;
+  color: #07395a;
+  font-size: 2em;
+}*/
