@@ -106,16 +106,26 @@ header #header img {
   margin: 3.5%
 }
 
-#nicole #grey{
+#nicole .farver a{
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+}
+
+#nicole #altgrey{
   background-color: grey;
+  color: grey;
 }
 
-#nicole #red {
+#nicole #altred{
   background-color: red;
+  color: red;
 }
 
-#nicole #blue{
+#nicole #altblue{
   background-color: blue;
+  color: blue;
 }
 
 #nicole button{
