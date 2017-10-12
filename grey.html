@@ -6,11 +6,11 @@
   <!-- Titel for siden -->
   <title>IN2 Design</title>
   <!-- Link til stylesheet -->
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="nhstyle.css" rel="stylesheet" type="text/css">
   <!-- Link til font google -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Varela+Round" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> -->
-  <!-- Meta tag for mobilvisning -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+      <!-- Meta tag for mobilvisning -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Search Icon -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -21,12 +21,20 @@
 
   <header>
     <div id="header">
-      <a href="index.html"><img src="./img/logoin2.png" alt="IN2 logo">
-      <!--<h1>Woothie</h1></a> -->
-      <!-- Søgefunktion
-      <div class="w3-padding w3-xlarge w3-text-orange">
-          <i class="fa fa-search"></i>
-        </div>-->
+      <a href="index.html"><img src="./img/logoin2.png" alt="IN2 logo"></a>
+        <!-- navigationsbar menu -->
+    <nav>
+      <ul>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="inspiration.html">Inspiration</a></li>
+        <li><a href="indretning.html">Indretning</a></li>
+        <li><a href="webshop.html">Webshop</a></li>
+        </ul>
+      </nav>
+      <div class="lup">
+          <a href="index.html"><img src="./img/lup.png" alt="Søg"></a>
+        </div>
+      <!-- hamburgermenuen -->
       <div id=mynav class=navi> <!--yderste lag-->
         <a href="javascript:void(0)" class="closebut" onclick="closeNav()">&times;</a> <!-- knap til at lukke nav-->
 
@@ -45,14 +53,13 @@
 
 
 
-
 <!-- Produktside kodet af Nicole -->
 
 <!-- Main har fået id, så det jeg styler kun styler mine ting -->
   <main id="nicole">
 
 <!-- img er brugt til at sætte et billede ind af produktet - skiftes for hver html-fil / farve -->
-    <img src="./img/grey.png" alt="ægget i blå">
+    <img src="./img/grey.png" alt="ægget i grå">
 
 <!-- Knapperne til at vælge hvilken farve produktet skal være, brugt section for at sætte dem ind i en kasse, brugt a for at linke til de andre farver -->
   <section class="farver">
@@ -103,18 +110,17 @@
 
 
 
-  <footer>
-    <p>&copy; IN2 DESIGN 2017 - All Rights Reserved <a href="http://www.facebook.com" target="_blank"><img src="img/facebook-icon.png" alt="facebook-logo"></a></p>
-  </footer>
+<footer>
+  <p>&copy; IN2 DESIGN 2017 - All Rights Reserved</p>
+</footer>
 
 <script> /* javascript til at åbne menuen, når der klikkes på ☰-*/
 function openNav(){
-  document.getElementById("mynav").style.width = "100%";
+document.getElementById("mynav").style.width = "100%";
 }
 function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
-  document.getElementById("mynav").style.width = "0%";
+document.getElementById("mynav").style.width = "0%";
 }
-
 </script>
 
 </body>
