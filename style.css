@@ -43,6 +43,8 @@ header #header img {
 
 /*Main på produktside har fået id="nicole", så css kun påvirker produktside*/
 
+/*HUSK TIL NÆSTE GANG REM/EM*/
+
 /*Styling for mobil - mobile first!*/
 
 /*styling for main-boksen*/
@@ -63,9 +65,10 @@ header #header img {
   /*opacity: none;*/
 }
 
-/*styling for iframe - som ikke kom til at virke i html*/
+/*styling for iframe*/
 #nicole iframe{
-  /*display: none;*/
+  display: block;
+  margin: 3% auto;
 }
 
 /*Styling for alle h*/
@@ -223,6 +226,7 @@ header #header img {
     clear: right;
     margin-top: 3%;
     max-width: 35%;
+    margin-right: 9%;
   }
 
   #nicole .omegg{
@@ -259,6 +263,13 @@ header #header img {
     position: absolute;
     top: 80%;
     left: 21%;
+  }
+}
+
+@media screen and (min-width:1104px) {
+  #nicole .farver{
+    top: 483px;
+    left:
   }
 }
 
