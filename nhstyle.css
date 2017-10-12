@@ -25,7 +25,9 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
+
 
 header #header {
   height: 98px;
@@ -71,17 +73,6 @@ li a:hover {
   color: rgb(83,112,129);
 }
 
-.lup {
-  height: 90%;
-  padding: 8px 70px 20px 10px;
-  margin: 0.2em;
-  float: right;
-  overflow: hidden;
-}
-
-.lup img {
-
-  }
 
   /*footer*/
   footer {
@@ -170,18 +161,6 @@ li a:hover {
   @media screen and (max-width: 560px) {
   nav {
     display: none; /*nav menubar forsvinder*/
-  }
-  }
-
-  @media screen and (max-width: 880px) {
-    main section {/*de 3 kasser ændres til fuldskærmsstørrelse*/
-      width: 97%;
-      height: 30%;
-      margin: 1.5%;
-      padding-right: 5%;
-  }
-    main section h1{
-      padding-top: 30px; /*lidt større padding over h1*/
   }
   }
   /*slut mediaqueries*/
