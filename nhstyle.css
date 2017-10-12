@@ -159,7 +159,7 @@ li a:hover {
 
   /*start mediaqueries*/
   @media screen and (max-width: 560px) {
-  nav {
+  nav ul {
     display: none; /*nav menubar forsvinder*/
   }
   }
@@ -333,11 +333,11 @@ li a:hover {
 /*Styling for elementerne når skærmen er breddere end 1024px*/
 @media screen and (min-width:1024px) {
   #nicole{
-    height: 590px;
-    /*position: fixed;*/
+    height: 685px;
+    margin-bottom: 5%;
   }
 
-  #nicole img{
+  #nicole img, #nicole iframe{
     max-width: 300px;
     float: left;
     margin-left: 10%;
@@ -372,6 +372,7 @@ li a:hover {
     position: absolute;
     top: 67%;
     left: 22%;
+    padding-top: 2%;
   }
 
   #nicole input[type=number]{
