@@ -206,15 +206,15 @@ li a:hover {
   font-family: 'Varela Round', sans-serif;
 }
 
-/*Styling for kun h1*/
-#nicole h1{
+/*Styling for kun h2*/
+#nicole h2{
   font-size: 120%;
   margin: 0;
   /*background-color: green;*/
 }
 
-/*Styling for kun h2*/
-#nicole h2{
+/*Styling for kun h1*/
+#nicole h1{
   font-size: 250%;
   margin: 0;
   /*background-color: blue;*/
@@ -323,7 +323,7 @@ li a:hover {
     border: none;
   }
 
-  #nicole h2{
+  #nicole h1{
     font-size: 300%;
   }
 
@@ -351,7 +351,7 @@ li a:hover {
     margin-left: 10%;
   }
 
-  #nicole h2{
+  #nicole h1{
     font-size: 300%;
   }
 
@@ -409,7 +409,6 @@ li a:hover {
 @media screen and (min-width:1104px) {
   #nicole .farver{
     top: 483px;
-    left:
   }
 }
 
